@@ -3,6 +3,9 @@
 #give permission for everything in the app directory
 sudo chmod -R 777 /home/ubuntu/app
 
+sudo service nginx stop
+sudo service nginx start
+
 #navigate into our working directory where we have all our github files
 cd /home/ubuntu/app
 
