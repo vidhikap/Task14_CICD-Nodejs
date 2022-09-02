@@ -1,7 +1,9 @@
 #!/bin/bash
 
-apt-get -y update
-apt-get -y install nginx
+sudo apt-get -y update
+sudo apt-get -y install nginx
+nginx -v
+
 
 #download node and npm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
