@@ -3,6 +3,8 @@
 sudo apt-get -y update
 sudo apt-get -y install nginx
 nginx -v
+sudo systemctl start nginx
+
 
 
 #download node and npm
