@@ -22,4 +22,4 @@ sudo systemctl enable nginx
 npm install
 
 #start our node app in the background
-node app.js 
+node app.js > app.out.log 2> app.err.log < /dev/null & 
